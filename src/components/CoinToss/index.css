@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 28px;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    padding: 38px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-size: 25px;
+}
+.min-heading {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.coin-image {
+  width: 140px;
+  height: 140px;
+  padding-bottom: 12px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+}
+.description {
+  padding: 15px;
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  border: 3px solid transparent;
+  padding: 6px;
+  border-radius: 6px;
+}
